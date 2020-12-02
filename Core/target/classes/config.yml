@@ -1,0 +1,21 @@
+SandWand:
+  Type: GOLD_HOE
+  Display-Name: '&c&lSand Wand'
+  Lore:
+  - ' '
+  - '&c Magical tool to instantly remove'
+  - '&c sand pillars from between your walls.'
+  - ' '
+  Enchanted: true
+Settings:
+  Allow-In:
+    Wilderness: false
+    Ally: false
+    Truce: false
+    Neutral: false
+    Enemy: false
+Messages:
+  Stack-Removed: '&e&lServer &f| &c{amount} wand was removed!'
+  No-Faction-Access: '&e&lServer &f| &cSand wands can only be used in land your faction owns!'
+  Not-Sand: '&e&lServer &f| &cYou must use on a sand!'
+  Given-Wand: '&e&lServer &f| &cYou were given a SandWand!'

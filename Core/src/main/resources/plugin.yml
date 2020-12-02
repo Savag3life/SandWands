@@ -1,0 +1,9 @@
+main: life.savag3.sandwands.Core
+author: Savag3life
+version: 1.0.0
+name: SupremeSandWands
+depend: [ Factions ]
+commands:
+  sandwand:
+    description: Gives sandwand
+    permission: sandwand.give
